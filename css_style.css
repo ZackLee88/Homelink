@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #review-form {
+    margin: 1em 0;
+  }
+  
+  #review-form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+  }
+  
+  #review-form textarea, #review-form input, #review-form select, #review-form button {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+  }
+  
+  footer {
+    background: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+  }
+  

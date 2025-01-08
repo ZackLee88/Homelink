@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homelink</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Homelink</h1>
+    <nav>
+      <a href="#home">首頁</a>
+      <a href="#houses">房屋列表</a>
+      <a href="#reviews">評論</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>歡迎來到 Homelink</h2>
+      <p>搜尋並分享你的租屋體驗！</p>
+    </section>
+
+    <section id="houses">
+      <h2>房屋列表</h2>
+      <ul id="house-list">
+        <!-- 動態插入的房屋資料 -->
+      </ul>
+    </section>
+
+    <section id="reviews">
+      <h2>用戶評論</h2>
+      <form id="review-form">
+        <label for="house">選擇房屋:</label>
+        <select id="house" name="house">
+          <option value="house1">房屋 1</option>
+          <option value="house2">房屋 2</option>
+        </select>
+        <label for="comment">評論:123</label>
+        <textarea id="comment" name="comment"></textarea>
+        <label for="rating">評分:</label>
+        <input type="number" id="rating" name="rating" min="1" max="5">
+        <button type="submit">提交評論</button>
+      </form>
+      <ul id="review-list">
+        <!-- 動態插入的評論 -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Homelink</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
